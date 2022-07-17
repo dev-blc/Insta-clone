@@ -1,0 +1,60 @@
+.Nav {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-bottom: 1px solid #EDEDED;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container {
+    padding: 1em 0 0.9m 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 0 1em;
+    width: 140px;
+    margin-right: 250px;
+}
+
+.logo>:hover {
+    cursor: pointer;
+}
+
+.search {
+    border: 1px soild #dbdbdb;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+    min-width: 270px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.searchIcon {
+    width: 30px;
+    opacity: 0.4;
+}
+
+.searchText {
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-right: 170px;
+}
+
+@media only screen and (max-width:100px) {
+    .search {
+        display: none important;
+    }
+}

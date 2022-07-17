@@ -1,0 +1,97 @@
+.siggestion__text {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.suggestion__text {
+    color: black;
+    padding-left: 3.8cm;
+    font-size: small;
+    font-weight: 600;
+}
+
+.suggestion__text:hover {
+    cursor: pointer;
+}
+
+.suggestion__followb {
+    padding-left: 150px;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 600;
+    
+}
+
+.suggestion__container {
+    width: 325px;
+    height: 450px;
+    margin-top: 25px;
+} 
+
+.suggestion__body {
+    height: 265px;
+    margin-top: 20px;
+}
+
+.suggestion__friends {
+    display: flex;
+    padding: 7px;
+}
+
+.suggestion__un {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.suggestion__un:hover {
+    cursor: pointer;
+}
+
+.suggestion__avathar:hover {
+    cursor: pointer;
+}
+
+.suggestion__dis {
+    color: #989898;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.suggestion__footer {
+    color: #c7c7c7;
+    font-size: 0.7em;
+    margin-top: 10px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 2em 0;
+    padding: 0;
+    list-style: none;
+    font-size: small;
+    text-decoration: none;
+}
+
+.copyrights {
+    font-size: small;
+}
+
+.li__link {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+li {
+    padding-inline: 2px;
+    text-decoration: none;
+}
+
+li::after {
+    content: "\ .";
+}
+
+li:last-child::after {
+    content: " "
+}

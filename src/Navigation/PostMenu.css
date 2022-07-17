@@ -1,0 +1,27 @@
+.postMenu {
+    display: flex;
+    padding-right: 10px;
+}
+
+.icons {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 23px;
+    height: 23px;
+}
+
+.icons>:hover {
+    cursor: pointer;
+    color: #8e8e8e;
+}
+
+.saveicn {
+    margin-left: 340px;
+    width: 23px;
+    height: 23px;
+}
+
+.saveicn>:hover {
+    cursor: pointer;
+    color: #8e8e8e;
+}

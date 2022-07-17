@@ -1,0 +1,31 @@
+.stories {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #EDEDED;
+    border-radius: 8px;
+    margin-left: 300px;
+    margin-top: 70px;
+    height: 7.4em;
+    width: 500px;
+    overflow-x: scroll;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.username {
+    font-size: 0.65em;
+    margin: 0.4em;
+}
+
+.Storyun__url{
+    color: black;
+}
+
+@media only screen and (max-width:640px) {
+    .stories {
+        margin: 0 0 0.5em 0;
+    }
+}

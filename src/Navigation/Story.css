@@ -1,0 +1,54 @@
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1;
+}
+
+.storyun {
+    font-size: 0.72em;
+    margin: 0.4em;
+    max-width: 50px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    color: black;
+    
+}
+
+.storyBorder {
+    padding: 2.5px;
+    background: linear-gradient( 200deg, #de3394 25%, #e03c67 50%, #f3753b 75%, #f99b4a 100%);
+    border-radius: 50%;
+    margin-left: 1em;
+    
+}
+
+.storyavatar {
+    border-radius: 50%;
+    border: 2px solid #ffff;
+    display: block;
+
+}
+
+.storyavatar>:hover {
+    cursor: pointer;
+    
+}
+
+.storyavatar>.small {
+    width: 25px;
+    height: 25px;
+}
+
+.storyavatar>.medium {
+    width: 35px;
+    height: 35px;
+}
+
+.storyavatar>.big {
+    width: 60px;
+    height: 60px;
+}
+
+
+

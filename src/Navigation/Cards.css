@@ -1,0 +1,10 @@
+.cards {
+    width: 500px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width:600px) {
+    .Cards {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+.sidebar__header {
+    display: flex;
+    text-decoration: none;
+}
+
+.sideun {
+    padding-left: 70px;
+    margin-top: 10px;
+    position: fixed;
+    text-decoration: none;
+}
+
+.side__un {
+    text-decoration: none;
+}
+
+.sidedis {
+    color: #989898;
+}
+
+.siggestion__text {
+    color: #989898;
+}
+
+.sideun__lin {
+    color: black;
+    text-decoration: none;
+}
+
+.sideavatar:hover {
+    cursor: pointer;
+}
