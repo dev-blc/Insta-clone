@@ -20,11 +20,12 @@ function Stories() {
 
            <Story username = "_._adithya_raj_._" ProfileStory = "../Images/Adistory.jpeg"/>
 
-           <Story username = "inside_vichus_world" ProfileStory = "../Images/vishaalstory.jpeg"/>
+           <Story username = "inside_vichus_world" ProfileStory = "../Images/Vishaalstory.jpeg"/>
 
            <Story username = "post_lemon" ProfileStory = "../Images/Samstory.jpeg"/>
 
-           <Story username = "the._.narcissist" ProfileStory = "../Images/Haristory.jpeg"/>
+           
+           <Story username = "irshu-sh" ProfileStory = "../Images/Irshadstory.jpeg"/>
 
         </div>
     );
