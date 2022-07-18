@@ -34,7 +34,7 @@ function Login( ) {
           <Grid item xs={6}>
             <div className="Loginpage__main">
                 <div>
-                   <img  src= {InstaLogin} width="400px"></img>
+                   <img className="phone__img"  src= {InstaLogin} width="400px"></img>
                 
                 </div>
 

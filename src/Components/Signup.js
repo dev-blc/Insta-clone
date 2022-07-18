@@ -3,6 +3,8 @@ import'./Signup.css';
 import React, { useState } from 'react'
 import axios from 'axios';
 
+import { useNavigate } from 'react-router-dom';
+
 function Signup() {
 
   const [username, setusername] = useState("")
@@ -10,7 +12,7 @@ function Signup() {
   const [email, setmail] = useState("")
   const [Fullname, setFullname] = useState("")
   
-
+  let Navigation=useNavigate()
 
   const handle= (e )=>{
     e.preventDefault()
@@ -29,6 +31,7 @@ function Signup() {
       {
         
         localStorage.setItem("username", username)
+        return Navigation("/Home")
         
       } 
     }).catch( err =>{

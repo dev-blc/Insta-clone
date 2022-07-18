@@ -1,19 +1,30 @@
 import { BrowserRouter as Router ,ROutes,Route, Routes} from'react-router-dom';
+
 import './App.css';
 import Login from './Components/Login';
+import Signup from './Components/Signup';
 import Home from './Navigation/Home';
 
 
+
+
 function App() {
+
+
+  
     return (
        
 
         <div className = "App" >
            <Router>
              <Routes>
-                <Route exact path="/" element={<Login/> }/>
+                <Route exact path="/" element={<Login/>}/>
                 <Route exact path="/Home" element={<Home/> }/>
-              </Routes>
+
+                <Route exact path ="/" element={<Signup/>}/>
+                <Route exact path ="/" element={<Home/>}/>
+                
+                </Routes>
         
             </Router>
         

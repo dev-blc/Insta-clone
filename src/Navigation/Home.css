@@ -1,0 +1,18 @@
+@media (max-width:10240px){
+    .Scontainer{
+        justify-content: center !important;
+    }
+}
+@media (max-width:10240px){
+.nav__container{
+    justify-content: center !important;
+}
+}
+
+@media (max-width:900px){
+    .nav__container{
+        justify-content: center !important;
+        width: fit-content;
+
+    }
+    }

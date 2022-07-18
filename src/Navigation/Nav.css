@@ -53,8 +53,19 @@
     margin-right: 170px;
 }
 
-@media only screen and (max-width:100px) {
-    .search {
-        display: none important;
+@media only screen and (max-width:640px) {
+    .Nav .container .logo{
+        margin: 0 2em 0em 0em;
+    }
+}
+@media only screen and (max-width: 900px){
+    .search{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+    
     }
 }

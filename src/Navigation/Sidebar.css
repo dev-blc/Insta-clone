@@ -30,3 +30,9 @@
 .sideavatar:hover {
     cursor: pointer;
 }
+
+@media (max-width:1525px){
+    .sidebar{
+        display: none;
+    }
+}

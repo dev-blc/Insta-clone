@@ -23,6 +23,27 @@
     cursor: pointer;
 }
 
-.dropdown-menu{
-    
+@media only screen and (max-width:640px) {
+    .profile__avatar{
+        width: 19px;
+        height: 19px;
+    }
 }
+
+
+@media only screen and (max-width:640px) {
+    .icon{
+        width: 19px;
+        height: 19px;
+    }
+}
+
+
+@media only screen and (max-width:640px) {
+    .menu{
+        margin-right: 0em;
+    }
+}
+
+
+   
