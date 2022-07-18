@@ -4,7 +4,9 @@ import React, { useState } from 'react'
 import axios from 'axios';
 
 import { useNavigate } from 'react-router-dom';
+import '../FirebaseConfig';
 
+const key = process.env.REACT_APP_API_KEY
 function Signup() {
 
   const [username, setusername] = useState("")
@@ -23,7 +25,7 @@ function Signup() {
      
     }
     console.log(data)
-    axios.post('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDcLAwp9wNOvh6x0-YyGmVLNnn3Li7MGPo', data)
+    axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${key}`, data)
     .then(res => {
       console.log(res)
       if(res.status===200 )

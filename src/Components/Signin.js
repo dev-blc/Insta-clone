@@ -2,12 +2,16 @@ import React, { useState } from 'react'
 import'./Login.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import '../FirebaseConfig';
 
+
+const key = process.env.REACT_APP_API_KEY
 function Signin() {
   const [username, setusername] = useState("")
   const [password, setpassword] = useState("")
   const [email, setmail] = useState("")
-  
+   
+ 
   
     let Navigation=useNavigate()
 
@@ -21,7 +25,7 @@ function Signin() {
      
     }
     console.log(data)
-    axios.post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDcLAwp9wNOvh6x0-YyGmVLNnn3Li7MGPo', data)
+    axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${key}`, data)
     .then(res => {
       console.log(res)
       if(res.status===200  )
